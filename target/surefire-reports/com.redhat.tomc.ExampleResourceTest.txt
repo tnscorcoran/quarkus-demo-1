@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.redhat.tomc.ExampleResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.283 s <<< FAILURE! - in com.redhat.tomc.ExampleResourceTest
+testHelloEndpoint  Time elapsed: 1.046 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: is "hello"
+  Actual: HOLA !!!!!
+
+	at com.redhat.tomc.ExampleResourceTest.testHelloEndpoint(ExampleResourceTest.java:18)
+
